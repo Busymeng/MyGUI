@@ -3,7 +3,7 @@
 import sys 
 from PyQt6.QtWidgets import QApplication, QWidget
 
-class EmptyWindow(QWidget):
+class MainWindow(QWidget):
 
     def __init__(self):
         """ Constructor for Empty Window Class """
@@ -23,5 +23,5 @@ class EmptyWindow(QWidget):
 # Run the program
 if __name__ == '__main__':
     app = QApplication(sys.argv)
-    window = EmptyWindow()
+    window = MainWindow()
     sys.exit(app.exec())
